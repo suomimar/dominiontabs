@@ -30,7 +30,7 @@
     "Adventurer": {
         "description": "Reveal cards from your deck until you reveal 2 Treasure cards. Put those Treasure cards in your hand and discard the other revealed cards.",
         "extra": "If you have to shuffle in the middle, shuffle. Don't shuffle in the revealed cards as these cards do not go to the Discard pile until you have finished revealing cards. If you run out of cards after shuffling and still only have one Treasure, you get just that one Treasure.",
-        "name": "Adventurer"
+        "name": "Seikkailija"
     },
     "Advisor": {
         "description": "+1 Action<n>Reveal the top 3 cards of your deck. The player to your left chooses one of them. Discard that card. Put the other cards into your hand.",
@@ -333,7 +333,7 @@
     "Bureaucrat": {
         "description": "Gain a silver card; put it on top of your deck. Each other player reveals a Victory card from his hand and puts it on his deck (or reveals a hand with no Victory cards).",
         "extra": "If you have no cards left in your Deck when you play this card, the Silver you gain will become the only card in your Deck. Similarly, if another players has no cards in his Deck, the Victory card he puts on top will become the only card in his Deck.",
-        "name": "Bureaucrat"
+        "name": "Byrokraatti"
     },
     "Buried Treasure": {
         "description": "At the start of your next turn, +1 Buy and +3 Coin.<line>When you gain this, play it.",
@@ -463,7 +463,7 @@
     "Cellar": {
         "description": "+1 Action<n>Discard any number of cards. +1 Card per card discarded.",
         "extra": "You can't discard Cellar to itself, since it isn't in your hand any longer when you resolve it. You choose what cards to discard and discard them all at once. You only draw cards after you have discarded. If you have to shuffle to do the drawing, the discarded cards will end up shuffled into your new Deck.",
-        "name": "Cellar"
+        "name": "Kellari"
     },
     "Cemetery": {
         "description": "2 <*VP*><line>When you gain this, trash up to 4 cards from your hand.<br><br><i>Heirloom: Haunted Mirror</i>",
@@ -483,7 +483,7 @@
     "Chancellor": {
         "description": "+2 Coins<n>You may immediately put your deck into your discard pile.",
         "extra": "You must resolve the Chancellor (decide whether or not to discard your Deck by flipping it into your Discard pile) before doing other things on your turn, like deciding what to buy or playing another Action card. You may not look through your Deck as you discard it.",
-        "name": "Chancellor"
+        "name": "Kansleri"
     },
     "Changeling": {
         "description": "Trash this. Gain a copy of a card you have in play.<line>In games using this, when you gain a card costing 3 Coins or more, you may exchange it for a Changeling.",
@@ -493,7 +493,7 @@
     "Chapel": {
         "description": "Trash up to 4 cards from your hand.",
         "extra": "You can't trash the Chapel itself since it isn't in your hand when you resolve it. You could trash a different Chapel card if that card were in your hand.",
-        "name": "Chapel"
+        "name": "Kappeli"
     },
     "Chariot Race": {
         "description": "+1 Action<n>Reveal the top card of your deck and put it into your hand. The player to your left reveals the top card of their deck. If your card costs more, +1 Coin and +1<VP>.",
@@ -602,8 +602,8 @@
     },
     "Copper": {
         "description": "1 <*COIN*>",
-        "extra": "60 cards per game.",
-        "name": "Copper"
+        "extra": "60 korttia per peli.",
+        "name": "Kupariraha"
     },
     "Coppersmith": {
         "description": "Copper produces an extra 1 Coin this turn.",
@@ -618,7 +618,7 @@
     "Council Room": {
         "description": "+4 Cards<br>+1 Buy<n>Each other player draws a card.",
         "extra": "The other players must draw a card whether they want to or not. All players should shuffle as necessary.",
-        "name": "Council Room"
+        "name": "Raatihuone"
     },
     "Count": {
         "description": "Choose one: Discard 2 cards; or put a card from your hand on top of your deck; or gain a Copper.<n><n>Choose one: +3 Coins; or trash your hand; or gain a Duchy.",
@@ -693,7 +693,7 @@
     "Curse": {
         "description": "-1 <*VP*>",
         "extra": "Curses are an available pile in the Supply regardless of what other cards are in the Supply. With 2 players, place 10 Curses in the Supply. With 3 players, place 20 Curses in the Supply. With 4 players, place 30 Curses in the Supply. With 5 players, place 40 Curses in the Supply. With 6 players, place 50 Curses in the Supply.",
-        "name": "Curse"
+        "name": "Kirous"
     },
     "Cursed": {
         "description": "When you gain a Cursed card, gain a Loot and a Curse.",
@@ -851,7 +851,7 @@
     "Duchy": {
         "description": "3 <*VP*>",
         "extra": "Put 8 in the Supply in a game with two players. Put 12 in the Supply in a game with three or more players.",
-        "name": "Duchy"
+        "name": "Pitäjä"
     },
     "Duke": {
         "description": "Worth 1 <VP> per Duchy you have.",
@@ -944,7 +944,7 @@
     "Estate": {
         "description": "1 <*VP*>",
         "extra": "Put 8 in the Supply in a game with two players. Put 12 in the Supply in a game with three or more players.",
-        "name": "Estate"
+        "name": "Tila"
     },
     "Exorcist": {
         "description": "Trash a card from your hand. Gain a cheaper Spirit from one of the Spirit Piles.",
@@ -1039,7 +1039,7 @@
     "Feast": {
         "description": "Trash this card. Gain a card costing up to 5 Coins.",
         "extra": "The gained card goes into your Discard pile. It has to be a card from the Supply. You cannot use coins from Treasures or previous Actions (like the Market) to increase the cost of the card that you gain. If you use Throne Room on Feast, you will gain two cards, even though you can only trash Feast once. Gaining the card isn't contingent on trashing Feast; they're just two things that the card tries to make you do.",
-        "name": "Feast"
+        "name": "Pidot"
     },
     "Feodum": {
         "description": "Worth 1<VP> for every 3 Silvers in your deck (round down).<line>When you trash this, gain 3 Silvers.",
@@ -1054,7 +1054,7 @@
     "Festival": {
         "description": "+2 Actions<br>+1 Buy<br>+2 Coins",
         "extra": "If you are playing multiple Festivals, keep a careful count of your Actions. Say how many you have left out loud; this trick works every time (i.e. \"I'm playing the Festival and now have two Actions remaining. I play a Market and have two Actions remaining. I play another Festival and now have three actions remaining...).",
-        "name": "Festival"
+        "name": "Juhlat"
     },
     "Figurehead": {
         "description": "3 <*COIN*><br><br>At the start of your next turn, +2 Cards.",
@@ -1202,7 +1202,7 @@
     "Gardens": {
         "description": "Worth 1<VP> for every 10 cards in your deck (rounded down).",
         "extra": "This Kingdom card is a Victory card, not an Action card. It does nothing until the end of the game, when it is worth 1 victory point per 10 cards in your Deck (counting all of your cards - your Discard pile and hand are part of your Deck at that point). Round down; if you have 39 cards, Gardens is worth 3 victory points. During set-up, place 12 Gardens in the Supply for a 3+ player game and 8 in the Supply for a 2 player game.",
-        "name": "Gardens"
+        "name": "Puutarha"
     },
     "GateKeeper": {
         "description": "At the start of your next turn, +3 Coin. Until then, when another player gains an Action or Treasure card they don't have an Exiled copy of, they Exile it.",
@@ -1257,7 +1257,7 @@
     "Gold": {
         "description": "3 <*COIN*>",
         "extra": "30 cards per game.",
-        "name": "Gold"
+        "name": "Kultaraha"
     },
     "Golem": {
         "description": "Reveal cards from your deck until you reveal 2 Action cards other than Golem Cards.<n>Discard the other cards, then play the Action cards in either order.",
@@ -1651,7 +1651,7 @@
     "Laboratory": {
         "description": "+2 Cards<br>+1 Action.",
         "extra": "Draw two cards. You may play another Action card during your Action phase.",
-        "name": "Laboratory"
+        "name": "Laboratorio"
     },
     "Labyrinth": {
         "description": "When you gain a 2nd card in one of your turns, take 2<VP> from here.<line>Setup: Put 6<VP> here per player.",
@@ -1691,7 +1691,7 @@
     "Library": {
         "description": "Draw until you have 7 cards in hand. You may set aside any Action cards drawn this way, as you draw them; discard the set aside cards after you finish drawing.",
         "extra": "If you have to shuffle in the middle, the set-aside cards are not shuffled into the new Deck. They will be discarded when you have finished drawing cards. If you run out of cards even after shuffling, you just get however many there were. You are not obligated to set aside Actions - you just have the option to do so. If you have 7 or more cards in hand after you play the Library, you don't draw any cards.",
-        "name": "Library"
+        "name": "Kirjasto"
     },
     "Lighthouse": {
         "description": "+1 Action<br>Now and at the start of your next turn, +1 Coin.<line>While you have this in play, when another player plays an Attack card, it doesn't affect you.",
@@ -1811,7 +1811,7 @@
     "Market": {
         "description": "+1 Card<br>+1 Action<br>+1 Buy<br>+1 Coin<n>",
         "extra": "Draw a card. You may play another Action card during your Actions phase. During your Buy phase, you may buy an additional card from the supply, and add one coin to the total value of the Treasure cards played.",
-        "name": "Market"
+        "name": "Tori"
     },
     "Market Square": {
         "description": "+1 Card<br>+1 Action<br>+1 Buy<line>When one of your cards is trashed, you may discard this from your hand. If you do, gain a Gold.",
@@ -1871,7 +1871,7 @@
     "Militia": {
         "description": "+2 Coins<n>Each other player discards down to 3 cards in his hand.",
         "extra": "The attacked players discard cards until they have only 3 cards in hand. Players who had 3 or fewer cards in hand when Militia was played do not discard any cards.",
-        "name": "Militia"
+        "name": "Nostoväki"
     },
     "Mill": {
         "description": "+1 Card<br>+1 Action<br>You may discard 2 cards, for +2 Coin.<line>1 <*VP*>",
@@ -1881,7 +1881,7 @@
     "Mine": {
         "description": "You may trash a Treasure from your hand. Gain a Treasure to your hand costing up to 3 Coins more than it.<n>[Trash a Treasure card from your hand. Gain a Treasure card costing up to 3 Coins more; put it into your hand.]",
         "extra": "Generally, you can trash a Copper card and gain a Silver, or trash a Silver card and gain a Gold. However, you could also trash a Treasure to gain the same Treasure or a cheaper one. The gained card goes in your hand; thus, you can spend it the same turn. If you don't have a Treasure card in your hand to trash, you can't gain anything.",
-        "name": "Mine"
+        "name": "Kaivos"
     },
     "Mining Road": {
         "description": "+1 Action<br>+1 Buy<br>+2 Coin<br>Once this turn, when you gain a Treasure, you may play it.",
@@ -1931,7 +1931,7 @@
     "Moat": {
         "description": "+2 Cards<line>When another player plays an Attack card, you may reveal this from your hand. If you do, you are unaffected by that Attack.",
         "extra": "An attack card is one that says \"Attack\" on the bottom line (usually, \"Action - Attack\"). When someone else plays an Attack card, you may reveal the Moat by showing it from your hand to the other players and then returning it to your hand (before the Attack card resolves). You are then unaffected by that Attack card. You won't gain a Curse because of a Witch or reveal a card to a Spy, and so on. Moat doesn't stop anything an Attack does to other players or to the player of the Attack; for example, if everyone else Moats a Witch, the person who played it still gets to draw 2 cards. Moat can also be played on your turn as an Action to draw 2 cards.",
-        "name": "Moat"
+        "name": "Vallihauta"
     },
     "Monastery": {
         "description": "For each card you’ve gained this turn, you may trash a card from your hand or a Copper you have in play.",
@@ -1941,7 +1941,7 @@
     "Moneylender": {
         "description": "You may trash a Copper from your hand for +3 Coins.<n>[Trash a Copper from your hand. If you do, +3 Coins.]",
         "extra": "If you do not have a Copper in your hand to trash, you don't get the +3 Coins to spend in the Buy phase.",
-        "name": "Moneylender"
+        "name": "Koronkiskuri"
     },
     "Monkey": {
         "description": "Until your next turn, when the player to your right gains a card,<br>+1 Card.<br><br>At the start of your next turn,<br>+1 Card.",
@@ -2360,7 +2360,7 @@
     "Province": {
         "description": "6 <*VP*>",
         "extra": "Put 8 in the Supply in a game with two players. Put 12 in the Supply in a game with three or four players. Put 15 in the Supply in a game with five players. Put 18 in the Supply in a game with six players.",
-        "name": "Province"
+        "name": "Lääni"
     },
     "Pursue": {
         "description": "+1 Buy<n>Name a card. Reveal the top 4 cards from your deck. Put the matches back and discard the rest.",
@@ -2463,7 +2463,7 @@
     "Remodel": {
         "description": "Trash a card from your hand. Gain a card costing up to 2 Coins more than the trashed card.",
         "extra": "You cannot trash the Remodel as it isn't in your hand when you resolve it (you can trash a different Remodel card from your hand). If you do not have a card to trash, you cannot gain a card from the Remodel. The gained card goes in your Discard pile. You can only gain cards from the Supply. The gained card need not cost exactly 2 Coins more than the trashed card; it can cost that much or any amount less. You cannot use coins from Treasures or previous Actions (like the Market) to increase the cost of the card you gain. You can trash a card to gain a copy of the same card.",
-        "name": "Remodel"
+        "name": "Muutostyö"
     },
     "Replace": {
         "description": "Trash a card from your hand. Gain a card costing up to 2 Coins more than it. If the gained card is an Action or Treasure, put it onto your deck; if it's a Victory card, each other player gains a Curse.",
@@ -2817,8 +2817,8 @@
     },
     "Silver": {
         "description": " 2 <*COIN*>",
-        "extra": "40 cards per game.",
-        "name": "Silver"
+        "extra": "40 korttia per peli.",
+        "name": "Hopearaha"
     },
     "Silver Mine": {
         "description": "Gain a Treasure costing less than this to your hand.",
@@ -2848,7 +2848,7 @@
     "Smithy": {
         "description": "+3 Cards",
         "extra": "Draw three cards.",
-        "name": "Smithy"
+        "name": "Takomo"
     },
     "Smugglers": {
         "description": "Gain a copy of a card costing up to 6 Coins that the player to your right gained on his last turn.",
@@ -3250,7 +3250,7 @@
     "Trash": {
         "description": "Pile of trash.",
         "extra": "",
-        "name": "Trash"
+        "name": "Poistopino"
     },
     "Travelling Fair": {
         "description": "+2 Buys<n>When you gain a card this turn, you may put it on top of your deck.",
